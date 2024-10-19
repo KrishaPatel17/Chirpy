@@ -5,3 +5,5 @@ Chirpy's features include:
 - Clearing your clipboard
 - Printing your clipboard as a text document
 - A digital companion on the bottom left corner of your screen
+
+  
