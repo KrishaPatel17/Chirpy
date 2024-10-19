@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chirpy's Nest</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 200px;
+      padding: 10px;
+    }
+    .clipboard-item {
+      margin-top: 5px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      background-color: #f0f0f0;
+      cursor: pointer;
+    }
+    .clipboard-item:hover {
+      background-color: #e0e0e0;
+    }
+    button {
+      margin-top: 10px;
+      padding: 5px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    #clipboard-history {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Chirpy Clipboard</h2>
+  <button id="read-clipboard">Read Clipboard</button>
+  <div id="clipboard-history"></div>
+  <button id="clear-history">Clear History</button>
+  <script src="popup.js"></script>
+  <button id="print-history">Print Clipboard History</button>  <!-- New button -->
+</body>
+</html>

@@ -1,0 +1,13 @@
+#chirpy-bird {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  opacity: 0.8;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#chirpy-bird:hover {
+  opacity: 1; /* Full opacity on hover */
+}
